@@ -1,0 +1,41 @@
+<html>
+	<head>    <meta http-equiv="content-type" content="text/html; charset=utf-8"><link rel="shortcut icon" href="/img/40x40FunnelEnvy.png" type="image/x-icon" />
+		<meta name="viewport"
+			  content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
+		
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" href="/css/chat/base.css">
+		<link rel="stylesheet" href="/css/chat/chat.css">
+		<link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="/css/dashboard.css">
+
+		<title>Welcome to Testing Dashboard</title>
+		<script src="/js/jquery/jquery.min.js"></script>	 
+	</head> <body>
+		<div id="app" class="flex flex-column">
+			<main class="flex flex-column">
+				<header class="title-bar flex flex-row flex-center">
+					<div class="title-wrapper block center-element" >
+						<img src="http://www.funnelenvy.com/wp-content/uploads/logo-retina.png" width="240" height="47" />
+						<span class="title">Automated Testing Dashboard</span>
+					</div>
+				</header>
+
+				<div class=" flex flex-row flex-1 clear">
+					<div class="flex flex-column col col-12">
+						<main class="chat flex flex-column flex-1 clear"></main>
+
+						<form class="isHidden flex flex-row flex-space-between" id="send-message">
+							<input type="text" placeholder="Your name" name="name" class="col col-3">
+							<input type="text" placeholder="Enter your message" name="text" class="col col-7">
+							<button class="button-primary col col-2" type="submit">Send</button>
+						</form>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="/js/feathers.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>

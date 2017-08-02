@@ -13,6 +13,10 @@
 4. run tests with `\nightwatch\nightwatch`
 5. go to localhost:3030 to see results!
 
+### usage notes
+
+* a comment with the content `// nightwatch --test tests/path/to/test.js` can be useful to uncomment when you want to run only that test 
+
 ### Who do I talk to? ###
 
 * Toby (@tobyfee)

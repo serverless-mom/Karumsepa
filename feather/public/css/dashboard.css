@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.isHidden{display: none;}
+html, body {
+	font-family: 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+	font-weight: 400;
+	font-size: 16px;
+	color: #333;
+}
+
+.center-text {
+	text-align: center;
+}
+
+main {
+	margin-top: 100px;
+	padding: 20px;
+}
+
+img.logo {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 100;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 20px;
+}
+
+footer p {
+	font-weight: 300;
+	font-size: 1.0em;
+}
+
+a {
+	color: #31D8A0;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #31D8A0;
+}
+.message-wrapper{border:3px solid red;width:100%;padding: 0.75em;border-radius: 0.5em;}
+.message-wrapper p{margin-bottom: .3em;}
+.message-wrapper.numFail_0{border:3px solid green}
+ .on_fail_description{font-style: italic} 
+.message-wrapper.numFail_0 .on_fail_description{display: none} 
+.title-bar{background-color:#113f60}
+main.flex{margin-top:0;padding-top: 0;}
+.message.flex.flex-row{padding-top: 20px;}
+.testRunLacksFailures{background-color: #aea;margin-bottom: 4px;padding: 0.2em 0.75em;border-radius: 0.5em;}
+.testRunHasFailures{background-color: pink;margin-bottom: 4px;padding: 0.2em 0.75em;border-radius: 0.5em;}
+
+.hasFailure{background-color: #fcd}
+.noFailure{background-color: lightgreen;display: none}
+.failureMessage{font-size: 0.8em;display: inline-block;clear: both;}
+div.message-wrapper ul{padding: 0 40px;margin: 1px;}
+

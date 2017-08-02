@@ -1,0 +1,13 @@
+{
+  "name": "nightwatch-envy",
+  "main": "./main.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "chromedriver": "^2.30.1",
+    "fs": "0.0.1-security",
+    "mustache": "^2.3.0",
+    "nedb": "^1.8.0",
+    "nightwatch": "^0.9.16"
+  },
+  "devDependencies": {}
+}
